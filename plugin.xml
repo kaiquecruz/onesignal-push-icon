@@ -9,7 +9,6 @@
         <engine name="cordova" version=">=3.0.0" /> 
     </engines>  
 
-    <!-- android --> 
     <platform name="android">
 		<resource-file src="drawable-ldpi/ic_stat_onesignal_default.png" target="res/drawable-ldpi/ic_stat_onesignal_default.png" />
 		<resource-file src="drawable-mdpi/ic_stat_onesignal_default.png" target="res/drawable-mdpi/ic_stat_onesignal_default.png" />
