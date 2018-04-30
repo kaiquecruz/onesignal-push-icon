@@ -1,0 +1,33 @@
+{
+  "name": "icones-onesignal-plugin",
+  "version": "1.0.0",
+  "description": "Adicione seus icones OneSignal - By Victor Marques",
+  "cordova": {
+    "id": "icones-onesignal-plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaiquecruz/onesignal-push-icon.git#wifi-now"
+  },
+  "keywords": [
+    "onesignal",
+    "icon",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/kaiquecruz/onesignal-push-icon/issues"
+  },
+  "homepage": "https://github.com/kaiquecruz/onesignal-push-icon#wifi-now"
+}
