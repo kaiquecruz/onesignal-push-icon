@@ -5,10 +5,6 @@
     <description>Adicione seus icones OneSignal - By Victor Marques</description> 
     <license>MIT</license> 
 
-    <engines> 
-        <engine name="cordova" version=">=3.0.0" /> 
-    </engines>  
-
     <!-- android --> 
     <platform name="android">
 		<resource-file src="drawable-ldpi/ic_stat_onesignal_default.png" target="res/drawable-ldpi/ic_stat_onesignal_default.png" />
