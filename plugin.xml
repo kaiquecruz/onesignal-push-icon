@@ -31,7 +31,7 @@
             <application android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" />
         </edit-config>
         <resource-file src="drawable/ic_launcher_background.xml" target="res/drawable/ic_launcher_background.xml" />
-        <resource-file src="drawable/ic_launcher_foreground.xml" target="res/drawable/ic_launcher_foreground.xml" />
+        <resource-file src="drawable/launch_background.xml" target="res/drawable/launch_background.xml" />
         <resource-file src="mipmap-anydpi-v26/ic_launcher.xml" target="res/mipmap-anydpi-v26/ic_launcher.xml" />
         <resource-file src="mipmap-anydpi-v26/ic_launcher_round.xml" target="res/mipmap-anydpi-v26/ic_launcher_round.xml" />
         <resource-file src="mipmap-hdpi/ic_launcher.png" target="res/mipmap-hdpi/ic_launcher.png" />
