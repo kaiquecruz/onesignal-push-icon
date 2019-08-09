@@ -29,7 +29,7 @@
 		<!-- Config por Android 9 to use http requests. -->
 		<resource-file src="xml/network_security_config.xml" target="res/xml/network_security_config.xml" />
 
-		<edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
+		<edit-config xmlns:android="http://schemas.android.com/apk/res/android" file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
             <application android:networkSecurityConfig="@xml/network_security_config" />
         </edit-config>	
     </platform> 
