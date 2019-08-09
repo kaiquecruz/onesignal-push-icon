@@ -26,11 +26,11 @@
 		<resource-file src="mipmap-xxxhdpi/ic_stat_onesignal_default.png" target="res/mipmap-xxxhdpi/ic_stat_onesignal_default.png" />	
 		
 		
-		<!-- Config por Android 9 to use http requests. -->
-		<resource-file src="xml/network_security_config.xml" target="res/xml/network_security_config.xml" />
+		<!-- Config por Android 9 to use http requests. 
+		<resource-file src="xml/network_security_config.xml" target="res/xml/network_security_config.xml" />-->
 
 		<edit-config xmlns:android="http://schemas.android.com/apk/res/android" file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
-            <application android:networkSecurityConfig="@xml/network_security_config" />
+            <application android:usesCleartextTraffic="true" />
         </edit-config>	
     </platform> 
 </plugin>
