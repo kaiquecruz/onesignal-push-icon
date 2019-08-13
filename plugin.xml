@@ -30,6 +30,6 @@
 
 		<edit-config xmlns:android="http://schemas.android.com/apk/res/android" file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
             <application android:networkSecurityConfig="@xml/network_security_config" />
-        </edit-config
+        </edit-config>
     </platform> 
 </plugin>
