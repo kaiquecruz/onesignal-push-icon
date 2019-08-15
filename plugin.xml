@@ -48,5 +48,14 @@
         <resource-file src="mipmap-xxxhdpi/ic_launcher.png" target="res/mipmap-xxxhdpi/ic_launcher.png" />
         <resource-file src="mipmap-xxxhdpi/ic_launcher_round.png" target="res/mipmap-xxxhdpi/ic_launcher_round.png" />
         <resource-file src="mipmap-xxxhdpi/ic_launcher_foreground.png" target="res/mipmap-xxxhdpi/ic_launcher_foreground.png" />
+		
+		<!-- Config por Android 9 to use http requests. -->
+		<edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
+            <application android:usesCleartextTraffic="true" />
+        </edit-config>
+		
+		<edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
+			<application android:allowBackup="false" />
+		</edit-config>
     </platform> 
 </plugin>
