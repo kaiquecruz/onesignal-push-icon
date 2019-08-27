@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">localhost:8100</domain>
+        <domain includeSubdomains="true">clickacai.com.br</domain>
+        <domain includeSubdomains="true">api.whatsapp.com</domain>
+        <domain includeSubdomains="true">www.facebook.com</domain>
+        <domain includeSubdomains="true">www.instagram.com</domain>
+        <domain includeSubdomains="true">api.instagram.com</domain>
+        <domain includeSubdomains="true">viacep.com.br</domain>
+        <domain includeSubdomains="true">worldclockapi.com</domain>
+    </domain-config>
+</network-security-config>
