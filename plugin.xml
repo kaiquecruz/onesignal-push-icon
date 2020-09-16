@@ -29,9 +29,6 @@
 		<edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
             <application android:usesCleartextTraffic="true" />
         </edit-config>
-		
-		<edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
-			<application android:allowBackup="false" />
-		</edit-config>
+
     </platform> 
 </plugin>
